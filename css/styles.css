@@ -656,6 +656,79 @@ img {
 }
 
  /**
+   |============================
+   | Subscribe
+   |============================
+ */
+
+ .subscriber-wrapper {
+   margin-left: 80px;
+
+}
+.sbscr-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.sbscr-input {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    position: absolute;
+    /*top: 50%;
+    left: 50%;*/
+    transform: translateY(-50%);
+    
+}
+
+.footer-input-email {
+    background-color: transparent;
+    width: 264px;
+    height: 40px;
+    color: #FFFFFF;
+    border: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    outline: transparent;
+    margin-right: 24px;
+    position: relative;
+}
+.footer-input-email:focus {
+
+}
+
+.form-sbscr {
+    display: flex;
+    
+}
+
+.footer-sbscr-btn {
+    padding: 8px 24px;
+    gap: 16px;    
+    background: #4D5AE5;
+    border: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    
+}
+
+.sbscr-link-icon {
+    fill: #ffffff;
+}
+
+
+ /**
       |============================
       |  Modal Window
       |============================
@@ -831,7 +904,7 @@ img {
 .modal-check:checked + .modal-form-check::before {
     background-color: #404BBF;
     border-radius: #404BBF ;
-    background-image: url();
+    background-image: url(./images/icons.svg#Vector);
 }
 
 .modal-form-check {
